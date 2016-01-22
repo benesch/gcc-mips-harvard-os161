@@ -1,0 +1,5 @@
+gcc-mips-harvard-os161 (4.8.3+os161-2.1-0ubuntu1) precise; urgency=low
+
+  * Initial release
+
+ -- Nikhil Benesch <nikhil.benesch@gmail.com>  Mon, 18 Jan 2016 23:24:25 -0800
