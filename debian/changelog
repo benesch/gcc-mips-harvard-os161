@@ -1,3 +1,9 @@
+gcc-mips-harvard-os161 (4.8.3+os161-2.1-0ubuntu3~trusty) trusty; urgency=medium
+
+  * Build for trusty
+
+ -- Nikhil Benesch <nikhil.benesch@gmail.com>  Thu, 21 Jan 2016 23:52:56 -0800
+
 gcc-mips-harvard-os161 (4.8.3+os161-2.1-0ubuntu3) precise; urgency=medium
 
   * Correct distribution
