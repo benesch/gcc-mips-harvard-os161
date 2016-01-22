@@ -30,6 +30,6 @@ override_dh_auto_tests:
 
 override_dh_auto_install:
 	cd "obj-$(shell dpkg-architecture -qDEB_HOST_GNU_TYPE)" && \
-		$(MAKE) install "DESTDIR=$(abspath $(WORKPATH))" AM_UPDATE_INFO_DIR=no
+		$(MAKE) install "DESTDIR=$(abspath $(WORKDIR))" AM_UPDATE_INFO_DIR=no
 	# Avoid conflicts with standard gcc package.
 	rm -rf $(WORKDIR)/usr/share/info $(WORKDIR)/usr/share/man/man7
